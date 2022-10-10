@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Characters</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+    #middlemarch li{
+      list-style-type: upper-roman;
+      margin-left: 2em;
+      }
+      #taletwocities li{
+        padding: .5em;
+      list-style-type: upper-alpha;
+     }      
+    
+      .f {
+        color: blue;
+      }
+      .m {
+        color: red;
+      }
+      
+      #middlemarch li:nth-child(1),
+      #taletwocities li:nth-child(2)
+      {
+        font-weight: bold;
+      }
+      #middlemarch li:nth-child(5),
+      #taletwocities li:nth-child(5)
+      {
+        font-style: italic;
+      }
+      
+    </style>
+</head>
+
+<body>
+    <h1>Characters</h1>
+    <h2>Middlemarch</h2>
+    <h3>George Eliot</h3>
+    <ol id="middlemarch">
+        <li class="f">Dorothea Brooke</li>
+        <li class="f">Celia Brooke</li>
+        <li class="m">Edward Casaubon</li>
+        <li class="m">Sir James Chettam</li>
+        <li class="m">Joshua Rigg</li>
+        <li class="m">Will Ladislaw</li>
+        <li class="m">Tertius Lydgate</li>
+        <li class="f">Rosamond Vincy</li>
+    </ol>
+    <h2>A Tale of Two Cities</h2>
+    <h3>Charles Dickens</h3>
+    <ol id="taletwocities">
+        <li class="m">Charles Danay</li>
+        <li class="m">Sydney Carton</li>
+        <li class="m">Doctor Manette</li>
+        <li class="f">Lucie Mantte</li>
+        <li class="f">Madame Defarge</li>
+        <li class="f">Miss Pross</li>
+    </ol>
+</body>
+</html>
